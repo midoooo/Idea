@@ -1,0 +1,40 @@
+installer
+1.windows/instaler/$patchcache$
+2.windows/software distribution
+no program data
+AppData
+3.delete hidden hibernate file
+4.move page file
+5.temp
+6.Disk CleanUp
+7.Delete Restore Points
+8.Defragmentation
+
+Kcaroze pas
+ettique
+net start sshd
+on call support
+escalation 
+appraisal
+flexibiltiy - infrigement
+onpaper
+incent
+aggressive
+dispartity
+facet
+17 Node.js
+18 Phython
+19 Perl
+
+To generate a key pair, open Cygwin and issue the following commands ($> is the command prompt):
+$> ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
+$> cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
+
+cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+
+This is a tricky one to come up with one apt word without getting into various connotations:
+
+A moan is a low sound, generally.
+A whimper sounds plaintive or submissive.
+A grunt or a groan doesn't sound ladylike.
+A squeal sounds too drawn out.

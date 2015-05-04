@@ -1,0 +1,8 @@
+
+
+ Connection-specific DNS Suffix  . : VITCCDNS
+ Link-local IPv6 Address . . . . . : fe80::64bd:d147:c003:22d7%12
+ IPv4 Address. . . . . . . . . . . : 172.16.66.32
+ Subnet Mask . . . . . . . . . . . : 255.255.255.0
+ Default Gateway . . . . . . . . . : 172.16.66.1
+\\AC505MTL03\New Folder\New folder

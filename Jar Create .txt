@@ -1,0 +1,2 @@
+jar cfm 2048.jar Manifest.txt *.class
+java cvfe 2048.jar ConsoleGame *.class

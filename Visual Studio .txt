@@ -1,0 +1,17 @@
+Question
+Sign in to vote
+0
+Sign in to vote
+Hi Raghunandan9,
+
+According to your description, could you please tell me what operation you do and then get the error in the VS2013?
+
+To help you narrow download this issue, I suggest you can try to open your Visual Studio 2013 Tools from your bar and then open the Developer Command Prompt for VS2013. After that, run the following commands:
+
+Try some devenv switches in command prompt:
+
+  a. Run devenv /Resetsettings to eliminate the cause of corrupted settings.
+
+  b. Run devenv /ResetSkipPkgs in Command Prompt.
+
+  c. Run devenv /Safemode to see if you can apply it correctly. This can eliminate the possibility that third party Add-ins or packages are causing problems.

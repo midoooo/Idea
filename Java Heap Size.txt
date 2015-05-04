@@ -1,0 +1,6 @@
+set JAVA_OPTS=-Xms512m -Xmx512m
+set JAVA_OPTS=-d64 -Xms512m -Xmx4g
+set JAVA_OPTS=-Xms128m -Xmx1024m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m
+java -d64 -Xms512m -Xmx4g
+
+>set JAVA_OPTS=-Xms128m -Xmx1024m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -ea

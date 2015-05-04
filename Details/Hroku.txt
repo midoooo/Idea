@@ -1,0 +1,21 @@
+ 1  heroku login
+ 2  git add *
+ 3  git commit -am "upload"
+ 4   heroku git:remote -a webproxyserver
+ 5   git push heroku master
+ 6  history
+
+heroku keys:add
+
+node.js
+PATH=vendor/node/bin:bin:node_modules/.bin:$PATH
+
+heroku config:set NODE_ENV=production
+
+"scripts": {
+  "start": "node index.js",
+  "test": "mocha",
+  "postinstall": "bower install && grunt build"
+}
+
+ cat Procfile

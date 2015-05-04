@@ -1,0 +1,17 @@
+Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+ was able to get my start menu back with the following steps:
+
+Launch the Registry Editor (hit the Windows key and R, type regedit, and then press Enter) and then navigate to the following key:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ ImmersiveShell\Launcher
+
+Click Edit > New > DWORD (32-bit) Value, and name it UseExperience.
+Double-click the newly created item and set the value to 0.
+Click OK, close the Registry Editor and then restart your computer -- or just restart Explorer. (If you can still right-click on your start button, you can use Task Manager to restart Explorer.)
+
+Source: I reversed the process found in this post about Continuum, the new version of the start menu.
+
+betanews dot com/2014/11/14/how-to-enable-continuum-in-windows-10-technical-preview-build-9879/
+http://talhawebz.blogspot.in/2015/04/window-10-technical-preview-build-10056.html
+http://getintopc.com/softwares/operating-systems/windows-10-pro-iso-build-10056-64-bit-free-download/
+
+
