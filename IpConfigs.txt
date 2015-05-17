@@ -1,0 +1,30 @@
+netsh interface ip set address "Ethernet" static 172.16.10.86 255.255.254.0 172.16.10.1
+
+>netsh interface ip set dns name="Ethernet" static 172.16.10.1
+
+
+
+
+
+ipconfig/release
+ipconfig/all
+ipconfig/flushdns
+ipconfig/renew
+
+netsh int ip set dns
+netsh winsock reset
+
+
+
+
+
+netsh interface ip set address name=”Local Area Connection” static 172.16.10.86 255.255.254.0 172.16.10.1
+
+
+netsh interface ip set address name=”Local Area Connection” source=dhcp
+
+netsh interface ip set dns name=”Local Area Connection” static 192.168.0.250
+
+netsh interface ip add dns name=”Local Area Connection” 8.8.8.8 index=2
+
+netsh interface ip set dnsservers name=”Local Area Connection” source=dhcp
