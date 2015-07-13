@@ -1,0 +1,79 @@
+Hexa Decimal
+
+int a=0x23;
+scanf("%x",&a);
+printf("%x",a+7);
+
+char* hexa(char *c);
+char* functio(char *a);
+
+int main()
+{
+	char c[10];
+	scanf("%s",c);
+    printf("%s",hexa(c));
+	return 0;
+}
+char* hexa(char *c)
+{
+    char *token=strtok(c,"'");
+    char buffer[20]={""};
+    char g[200]={""};
+    while(token!=NULL)
+    {
+    //itoa(token,buffer,16);
+    printf("%s",token);
+    //strcat(g,buffer);
+    token=strtok(NULL,"'");
+    }
+    return g;
+}
+
+2.File
+
+ fp1=fopen("temp.txt","w");
+ c=getchar();
+ fputc(c,fp1);
+ rewind(st);
+ fscanf(st,"%s%s%s%s",sopcode[m],sinst[m],saddress[m],svalue[m]);
+	
+
+3.String
+
+ 	int n =strlen(s);
+    isdigit();
+    ctype.tolower()
+    final=atoi(address);
+
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <string.h>
+	int main()
+	{
+	    int a=54325;
+	    char buffer[20];
+	    itoa(a,buffer,2);   // here 2 means binary
+	    printf("Binary value = %s\n", buffer);
+
+	    itoa(a,buffer,10);   // here 10 means decimal
+	    printf("Decimal value = %s\n", buffer);
+
+	    itoa(a,buffer,16);   // here 16 means Hexadecimal
+	    printf("Hexadecimal value = %s\n", buffer);
+	    return 0;
+	}
+
+
+4.Buffer
+ 
+ /* sprintf example */
+#include <stdio.h>
+
+int main ()
+{
+  char buffer [50];
+  int n, a=5, b=3;
+  n=sprintf (buffer, "%d plus %d is %d", a, b, a+b);
+  printf ("[%s] is a string %d chars long\n",buffer,n);
+  return 0;
+}

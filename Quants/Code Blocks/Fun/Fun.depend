@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1417113468 source:c:\users\prabakarthi\documents\code blocks\fun\main.cpp
+	<iostream>
+	<list>
+
+1417113547 source:c:\users\prabakarthi\documents\code blocks\fun\src\game.cpp
+	"game.h"
+
+1417112859 c:\users\prabakarthi\documents\code blocks\fun\src\game.h
+

@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char str[30]={"once upon a time in the us"};
+	char *a;
+	char *b=strtok(str," ");
+	while(b!=NULL)
+	{
+		printf("%s\n",b);
+		b=strtok(NULL," ");
+	}
+	return 0;
+}
