@@ -1,0 +1,6 @@
+1.Analytical Ability
+2.English
+3.Logical Ability
+4.Computer Science
+5.Mobility
+6.Cloud
