@@ -91,8 +91,8 @@ void reco(int n)
 int main()
 {
 int i=0;
-
-    reco(50);
+    scanf("%d",&i);
+    reco(40);
       printf("%d %d\n",one,zero);
     one=0;
     zero=0;

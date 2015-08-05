@@ -5,17 +5,17 @@
 int main()
 {
 /*
-	strlen returns the length of a given string 
-    strcmp compares two strings 
-    strncmp compares a certain amount of characters of two strings 
-    strchr finds the first occurrence of a character 
-    strrchr finds the last occurrence of a character 
-    strspn returns the length of the maximum initial segment that consists 
-of only the characters found in another byte string 
+	strlen returns the length of a given string
+    strcmp compares two strings
+    strncmp compares a certain amount of characters of two strings
+    strchr finds the first occurrence of a character
+    strrchr finds the last occurrence of a character
+    strspn returns the length of the maximum initial segment that consists
+of only the characters found in another byte string
     strcspn First matched character is at
-   strpbrk finds the first location of any character in one string, in another string 
-   strstr finds the first occurrence of a substring of characters 
-   strtok finds the next token in a byte string 
+   strpbrk finds the first location of any character in one string, in another string
+   strstr finds the first occurrence of a substring of characters
+   strtok finds the next token in a byte string
 */
    char a[100]="qwertyuiopasdfghjkelzxcvbnm";
    printf("%d\n",strlen(a));
@@ -28,11 +28,11 @@ of only the characters found in another byte string
 
    printf("last occurrence of a character --> %s\n",strrchr(a,'e'));
 
-  
+
 
   // strspn(find str, const str)
-    char string_find[50] = "qwe";
-    char low_alpha[50]= "qwertyuwipasdfghjklzxcvnm";
+    char string_find[50] = "qweee";
+    char low_alpha[50]= "qwe  rtyuwipasdfghjklzxcvnm";
     printf("Length of initial segment matching  %d\n", strspn(string_find, low_alpha));
 
    const char str1[] = "BCDEFA4960910dealzzzz";
@@ -43,22 +43,22 @@ of only the characters found in another byte string
 
    char *ret;
    ret = strpbrk(str1, str2);
-   if(ret) 
+   if(ret)
    {
       printf("First matching character: %c\n", *ret);
    }
 
    char s1 [] = "My House is small";
    printf ("Returned String 1: %s\n", strstr (s1, "is"));
-   
+
    char *tok;
    tok= strtok(s1, " ");
     while (tok) {
         printf("Token: %s\n", tok);
         tok = strtok(NULL, " ");
-    }  
+    }
 
-    // Carriage Return
+     // Carriage Return
      strcpy(s1,"MyHouseis small");
      s1[5]='\0';
     printf("%s\n",s1);
@@ -66,7 +66,7 @@ of only the characters found in another byte string
     // Substring  Substring
 
      strcpy(s1,"c programming");
-     char *buf;
+     char *buf=(char *)calloc(1,50);
      strncpy(buf,&s1[2],14);
      printf("%s\n",buf);
 

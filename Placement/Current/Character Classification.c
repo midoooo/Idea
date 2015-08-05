@@ -15,7 +15,7 @@ int main()
 	printf("%d\n",isspace(' '));
 	printf("%d\n",isblank(NULL));
     printf("%d\n",isprint(c));
-	printf("Puntuation %d\n", ispunct('0'));
+	printf("Puntuation %d\n", ispunct('+'));
 	printf("%c\n",toupper(c));
     printf("%c\n",tolower(c));
 	return 0;

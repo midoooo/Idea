@@ -11,7 +11,7 @@ int main()
 	 a[l]='5';
 	 }
 	 printf("%s\n",a);
-	
+
 
     strcpy(a,"dd");
 	printf("%s\n",a);
