@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #include <string.h>
-
+#include <malloc.h>
 int main()
 {
 /*
@@ -31,12 +31,12 @@ of only the characters found in another byte string
 
 
   // strspn(find str, const str)
-    char string_find[50] = "qweee";
-    char low_alpha[50]= "qwe  rtyuwipasdfghjklzxcvnm";
+    char string_find[50] = "friend";
+    char low_alpha[50]= "is where we love each other friend";
     printf("Length of initial segment matching  %d\n", strspn(string_find, low_alpha));
 
-   const char str1[] = "BCDEFA4960910dealzzzz";
-   const char str2[] = "zC";
+   const char str1[] = "Wonderful Life";
+   const char str2[] = "Life";
    int len = strcspn(str1, str2);
    printf("First matched character is at %d\n", len );
 

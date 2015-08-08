@@ -1,7 +1,7 @@
-#include<stdio.h>
-#include<conio.h>
-#include<string.h>
-void main()
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+int main()
 {
 	int n=10;
 	int a[5],b[n];
@@ -31,5 +31,5 @@ void main()
 	{
 		printf("%d\n",b[i]);
 	}
-	getch();
+	return 0;
 }

@@ -15,7 +15,7 @@ void printPowerSet(char *set, int set_size)
        {
           /* Check if jth bit in the counter is set
              If set then pront jth element from set */
-       	printf("%d\n", counter & (1<<j));
+       	printf("%d ", counter & (1<<j));
           if(counter & (1<<j)){}
             //printf("%c", set[j]);
        }
