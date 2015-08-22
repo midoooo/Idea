@@ -9,7 +9,7 @@ int fun(char *str1)
 int main()
 {
   char *str = "GeeksQuiz";
-  printf("%d", fun(str));
+  printf("%d\n", fun(str));
   char c[] = "GATE2011"; 
 char *p =c; 
 printf("%s", p + p[3] - p[1]) ;

@@ -3,12 +3,15 @@
 int main(void)
 {
     int i = 10;
+    int d=100;
+
      const int *ptr = &i;
-    //  *ptr=30;
-    ///*ptr = 100;
+     ptr=&d;
     printf("i = %d\n", *ptr);
 
-    // const int *ptr - we can change only pointer
-    // int const *ptr - we can change only value 
+    int const *btr=&i;
+    
+    // const int *ptr -poniter to constant we can change only pointer
+    // int const *btr -pointer to integer constant we can change only value 
     return 0;
 }

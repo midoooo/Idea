@@ -22,8 +22,11 @@ int main()
                 }
             }
             if(flag)
+            {
+            	printf("%d\n",i);
                 count=count+i;
+            }
         }
-        printf("%d",count);
+        //printf("%d",count);
     }
 }
